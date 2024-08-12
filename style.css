@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: DFkai-sb;
+  font-size: 17px;
 }
 
 h1,
@@ -55,4 +56,47 @@ header nav ul li a:hover {
 
 a.active {
   color: yellow;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+main section.left {
+  flex: 2 1 200px;
+}
+main section.left h3 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+main section.left img {
+  width: 90%;
+}
+
+main section.left table {
+  margin-top: 1rem;
+  padding: 0.25rem;
+}
+main section.left td {
+  padding: 0.25rem;
+  font-size: 20px;
+}
+main section.right {
+  flex: 7 1 500px;
+}
+
+main section.right h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+main section.right hr {
+  margin: 0.8rem 0rem;
+}
+p {
+  padding: 0.5rem 0rem;
 }

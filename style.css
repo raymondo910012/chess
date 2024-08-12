@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: DFkai-sb;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+header div.top {
+  padding: 1rem;
+  background-image: url(./images/background.png);
+}
+
+header div.top h1 {
+  font-size: 3rem;
+}
+
+header div.top h3 {
+  font-size: 1rem;
+}
+
+header nav {
+  background-color: black;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  list-style-type: none;
+}
+header nav ul li {
+  padding: 0.8rem 1.5rem;
+}
+
+header nav ul li a {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+header nav ul li a:hover {
+  color: yellow;
+  text-decoration: none;
+  font-size: 1.5 rem;
+  transition: all 0.2 ease-in-out;
+}
+
+a.active {
+  color: yellow;
+}

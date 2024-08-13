@@ -103,6 +103,64 @@ main section.right hr {
 p {
   padding: 0.5rem 0rem;
 }
+main section.japan-top {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+main section.japan-top figure {
+  display: flex;
+  align-items: center;
+  flex: 1 1 300px;
+}
+main section.japan-top figure img {
+  width: 100%;
+}
+
+main section.japan-top div.japan-info {
+  flex: 3 1 600px;
+  padding: 1.5rem;
+}
+main section.japan-top div.japan-info p {
+  font-size: 1.2rem;
+}
+
+main section.japan-top div.japan-info ul {
+  padding-left: 1.5rem;
+  font-size: 1.2rem;
+}
+
+main section.japan-top div.japan-info ul li {
+  font-size: 1.2rem;
+}
+div.competition {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+div.competition div.text {
+  flex: 6 1 600px;
+}
+#piechart_3d {
+  flex: 1 1 300px;
+}
+
+div.competition div.text h3 {
+  font-size: 2rem;
+  color: rgb(55, 210, 70);
+}
+div.competition div.text p {
+  font-size: 1.2rem;
+}
+
+div.competition div.text ul {
+  padding-left: 1.5rem;
+  font-size: 1.2rem;
+}
+
+div.competition div.text ul li {
+  font-size: 1.2rem;
+}
 
 @media screen and (max-width: 700px) {
   header nav ul {
